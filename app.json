@@ -5,7 +5,15 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.admobtest"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "org.name.AdMobTest"
+    }
   },
   "name": "AdMobTest"
 }
