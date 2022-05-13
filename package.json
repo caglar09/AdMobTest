@@ -2,6 +2,13 @@
   "name": "admobtest",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "React-native Google Admob example with Expo",
+  "keywords": [
+    "react-native",
+    "admob",
+    "google-admob",
+    "js"
+  ],
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
